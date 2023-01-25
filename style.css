@@ -7,39 +7,40 @@ body {
 
 body {
   display: block;
-  margin: 8px;
+  margin: 20px;
 }
 
 .container {
   width: 20%;
+  margin-top: 100px;
   margin: 100px auto;
 }
 
 .box {
-  width: 50px;
-  height: 50px;
+  width: 70px;
+  height: 70px;
   background-color: white;
 }
 
 .b {
   position: relative;
-  left: 50px;
+  left: 70px;
 }
 .c {
   position: relative;
-  left: 100px;
+  left: 140px;
 }
 .d {
   position: relative;
-  left: 50px;
+  left: 70px;
 }
 
 .blink {
   display: inline-flex;
   animation: blink 1s steps(1, end) infinite;
   position: relative;
-  left: 160px;
-  bottom: 50px;
+  left: 280px;
+  bottom: 70px;
 }
 
 @keyframes blink {
