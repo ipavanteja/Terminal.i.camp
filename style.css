@@ -16,22 +16,22 @@ body {
 }
 
 .box {
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   background-color: white;
 }
 
 .b {
   position: relative;
-  left: 40px;
+  left: 50px;
 }
 .c {
   position: relative;
-  left: 80px;
+  left: 100px;
 }
 .d {
   position: relative;
-  left: 40px;
+  left: 50px;
 }
 
 .blink {
@@ -39,7 +39,7 @@ body {
   animation: blink 1s steps(1, end) infinite;
   position: relative;
   left: 160px;
-  bottom: 40px;
+  bottom: 50px;
 }
 
 @keyframes blink {
